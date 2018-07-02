@@ -1,0 +1,32 @@
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family : 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.title {
+    background-color: #33BEBE;
+    color: white;
+    padding-top: 30px;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+
+.screenshot {
+    max-width: 460px;
+    margin-right: 20px;
+}
+
+.description {
+    max-width: 705px;
+    color: gray;
+}
+
+.app {
+    display: -webkit-flex;
+    display: flex;
+}
